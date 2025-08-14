@@ -1,0 +1,10 @@
+.ccf-form {max-width:640px;margin:1rem 0;padding:1rem;border:1px solid #e5e7eb;border-radius:12px;background:#fff}
+.ccf-row{display:flex;flex-direction:column;margin-bottom:12px}
+.ccf-row label{font-weight:600;margin-bottom:6px}
+.ccf-row input[type="text"],
+.ccf-row input[type="email"],
+.ccf-row textarea{padding:10px;border:1px solid #d1d5db;border-radius:8px}
+.ccf-actions button{padding:10px 16px;border:0;border-radius:8px;background:#111827;color:#fff;cursor:pointer}
+.ccf-alert{padding:12px 14px;border-radius:8px;margin:0 0 12px}
+.ccf-alert-error{background:#fef2f2;border:1px solid #fecaca}
+.ccf-alert-success{background:#ecfdf5;border:1px solid #bbf7d0}
