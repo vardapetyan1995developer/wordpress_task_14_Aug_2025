@@ -1,0 +1,130 @@
+/*
+Theme Name: NewsCorp
+Theme URI:  https://afthemes.com/products/newscorp/
+Author:     AF themes
+Author URI: https://afthemes.com/
+Description: NewsCorp is a powerful and flexible WordPress news theme ideal for online newspapers, magazines, personal blogs, editorial websites, and publishing platforms. It offers a 1-click demo import, pre-built starter templates, and complete no-code customization using popular page builders like Gutenberg, Elementor, Beaver Builder, Divi, and Brizy. Fully responsive, mobile-friendly, and SEO-optimized, NewsCorp is built for speed and performance, ensuring fast loading times and better Google rankings. It supports major WordPress plugins including WooCommerce (for eCommerce), Jetpack, Yoast SEO, and Contact Form 7 to enhance functionality. With RTL-ready and translation-ready features, plus demo content in multiple languages (English, Spanish, French, Japanese, Arabic), it’s perfect for a multilingual, global audience. Lightweight and highly customizable, it includes flexible header/footer options, custom widgets, block patterns, and template kits to help you create a stunning, content-focused website with ease. Learn more and explore demos at afthemes.com/products/newscorp/
+Template: morenews
+Version: 1.1.0
+Requires at least: 6.0
+Requires PHP: 7.0
+Tested up to: 6.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newscorp
+Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+NewsCorp WordPress Theme, Copyright 2025 AF themes
+NewsCorp is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+    line-height: 1.7;
+}
+
+.main-navigation .menu-description {
+    background-color: #b80000;
+}
+
+.main-navigation .menu-description:after {
+    border-top: 5px solid #b80000;
+}
+
+.morenews-header div.custom-menu-link>a {
+    background: #b80000;
+
+}
+
+.read-img .trending-no,
+.trending-posts-vertical .trending-no {
+    background-color: #b80000;
+}
+
+.aft-default-mode .entry-content>.wp-block-heading a:not(.has-link-color) {
+    border-color: #b80000;
+}
+
+.af-cat-widget-carousel a.morenews-categories.category-color-1 {
+    background-color: #b80000;
+
+}
+
+a.morenews-categories.category-color-1 {
+    color: #b80000;
+}
+
+.af-cat-widget-carousel a.morenews-categories.category-color-2 {
+    background-color: #007ACC;
+
+}
+
+a.morenews-categories.category-color-2 {
+    color: #007ACC;
+}
+
+.af-cat-widget-carousel a.morenews-categories.category-color-3 {
+    background-color: #333333;
+
+}
+
+a.morenews-categories.category-color-3 {
+    color: #333333;
+}
+
+input {
+    vertical-align: middle;
+}
+
+textarea {
+    width: 100%;
+}
+
+
+
+body.single-post .aft-image-caption {    
+    background: rgb(0 0 0 / 75%);   
+}
+
+.aft-image-caption p {    
+    opacity: 1; 
+    font-size: 14px;
+}
+
+body .reply a, 
+div#respond input[type="submit"],
+.btn-style1 a:visited,
+.btn-style1 a,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    padding: 5px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .entry-header .read-details .entry-meta .posts-author {
+        display: block;
+        margin-top: 20px;
+    }
+    .entry-header .read-details .entry-meta .posts-date {
+        display: block;
+        padding: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    body .site-branding .site-title {
+        font-size: 2.75rem;
+    }
+}
